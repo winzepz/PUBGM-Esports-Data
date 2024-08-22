@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG Mobile Stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PMSL CSA Fall 2024</h1>
+        <button id="toggle-dark-mode">Dark Mode</button>
+        <nav>
+            <button id="show-teams">Show Teams</button>
+            <button id="show-players">Show Players</button>
+            <button id="show-eliminations">Show Eliminations</button>
+            <button id="show-damage">Show Damage</button>
+        </nav>
+    </header>
+    <main>
+        <section id="teams" class="stats-section"></section>
+        <section id="players" class="stats-section" style="display: none;"></section>
+        <section id="eliminations" class="stats-section" style="display: none;"></section>
+        <section id="damage" class="stats-section" style="display: none;"></section>
+    </main>
+    <footer>
+        <div class="content">
+            <p>Data sourced from PUBG Mobile Esports API</p>
+            <p>Developed by <strong>winzepz</strong></p>
+            <div class="socials">
+                <a href="https://github.com/winzepz" target="_blank" title="GitHub Profile">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
